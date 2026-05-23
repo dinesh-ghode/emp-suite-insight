@@ -112,11 +112,11 @@ function LoginPage() {
           </form>
 
           <div className="mt-5 rounded-lg border border-dashed border-slate-200 bg-slate-50 px-3 py-2.5 text-xs text-slate-600">
-            <p className="font-semibold text-slate-700">Demo credentials</p>
+            <p className="font-semibold text-slate-700">Only Admin has access to see all employee details</p>
             <p className="mt-0.5">
-              Username: <code className="rounded bg-white px-1 py-0.5">{ADMIN_CREDENTIALS.username}</code>{" "}
+              {/* Username: <code className="rounded bg-white px-1 py-0.5">{ADMIN_CREDENTIALS.username}</code>{" "}
               · Password:{" "}
-              <code className="rounded bg-white px-1 py-0.5">{ADMIN_CREDENTIALS.password}</code>
+              <code className="rounded bg-white px-1 py-0.5">{ADMIN_CREDENTIALS.password}</code> */}
             </p>
           </div>
         </div>

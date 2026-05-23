@@ -532,7 +532,7 @@ function EmploymentStep({
                   onChange={(e) => setEmp(emp.id, { designation: e.target.value })}
                 />
               </Field>
-              <Field label="Location" required>
+              <Field label="Job Location" required>
                 <input
                   className={inputCls}
                   value={emp.location}
@@ -860,7 +860,7 @@ function FamilyStep({
                         onChange={(e) => setRow(m.id, { designation: e.target.value })}
                       />
                     </Field>
-                    <Field label="Location">
+                    <Field label="Job Location">
                       <input
                         className={inputCls}
                         value={m.location}
